@@ -494,7 +494,7 @@ Notes:
     parser.add_argument(
         '--base-path',
         type=str,
-        default='/Users/fahadbaloch/Documents',
+        default='.',
         help='Base directory containing Task folders'
     )
 

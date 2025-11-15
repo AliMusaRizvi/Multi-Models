@@ -412,7 +412,7 @@ if 'chat_history' not in st.session_state:
 if 'current_chat_id' not in st.session_state:
     st.session_state.current_chat_id = None
 if 'base_path' not in st.session_state:
-    st.session_state.base_path = "/Users/fahadbaloch/Documents"
+    st.session_state.base_path = "."
 if 'auto_load_attempted' not in st.session_state:
     st.session_state.auto_load_attempted = False
 
