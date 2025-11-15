@@ -1,0 +1,17 @@
+{
+  "base_model": "t5-small",
+  "lora_config": {
+    "r": 4,
+    "lora_alpha": 16,
+    "target_modules": [
+      "v",
+      "q"
+    ],
+    "lora_dropout": 0.05
+  },
+  "max_input_length": 512,
+  "max_target_length": 128,
+  "training_samples": 10000,
+  "model_parameters": "223.35M",
+  "trainable_parameters": "0.44M"
+}

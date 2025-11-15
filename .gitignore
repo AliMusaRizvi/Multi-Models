@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Training artifacts
+*.pth
+*.pt
+trainer_state.json
+training_results.json
+train_results.json
+test_results.json
+all_results.json
+dataset_info.json
