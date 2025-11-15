@@ -76,7 +76,7 @@ def get_task_info(task_path):
         'tokenizer_config.json',
         'vocab.txt',
         'vocab.json',
-        'merges.txt',  
+        'merges.txt',  # GPT-2 specific
         'added_tokens.json',
         'special_tokens_map.json'
     ]
